@@ -88,7 +88,7 @@ ul.description {
   max-width: 90%;
 }
 
-ul.honors li {
+ul.inline li {
   display: inline;
   font-size: 14px;
 }
