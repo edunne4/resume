@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  width: 11in;
+  height: 8.5in;
+  box-sizing: border-box;
+}
+
+.resume {
+  padding: 0.5in;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #000;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.job, .education {
+  margin-bottom: 15px;
+}
+
+.job-header, .edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+h4 {
+  font-size: 14px;
+  font-style: italic;
+  margin: 0px 0;
+  color: #222;
+}
+
+.job-date, .edu-date {
+  font-size: 14px;
+  color: #555;
+}
+
+.location {
+  font-size: 14px;
+  color: #555;
+}
+
+#emphasized {
+  font-weight: 600;
+}
+
+p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+ul.description {
+  max-width: 90%;
+}
+
+ul.honors li {
+  display: inline;
+  font-size: 14px;
+}
+
+ul.skills {
+  list-style: none;
+  padding: 0;
+}
+
+ul.skills li {
+  display: inline;
+  /* margin-right: 10px; */
+  font-size: 14px;
+  font-weight: 600;
+}
+
+ul.subskills {
+  list-style: none;
+  padding-left: 20px;
+}
+
+ul.subskills li {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+li {
+  font-size: 14px;
+}
