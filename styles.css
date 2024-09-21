@@ -8,7 +8,7 @@ body {
 }
 
 .resume {
-  padding: 0.5in;
+  padding: 0 0.5in;
 }
 
 header {
@@ -38,8 +38,8 @@ h2 {
   margin-bottom: 10px;
 }
 
-.job, .education {
-  margin-bottom: 15px;
+.job, .education, .project {
+  margin-bottom: 10px;
 }
 
 .job-header, .edu-header {
@@ -70,8 +70,15 @@ h4 {
   color: #555;
 }
 
+.skillSection {
+  font-size: 14px;
+  margin: 5px 10px;
+}
+
 #emphasized {
-  font-weight: 600;
+  /* font-weight: 600; */
+  /* font-style: italic; */
+  text-decoration: underline;
 }
 
 p {
@@ -94,25 +101,15 @@ ul.inline li {
 }
 
 ul.skills {
+  display: inline;
   list-style: none;
   padding: 0;
 }
 
 ul.skills li {
   display: inline;
-  /* margin-right: 10px; */
   font-size: 14px;
   font-weight: 600;
-}
-
-ul.subskills {
-  list-style: none;
-  padding-left: 20px;
-}
-
-ul.subskills li {
-  font-size: 14px;
-  font-weight: lighter;
 }
 
 li {
